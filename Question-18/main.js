@@ -9,9 +9,9 @@ console.log("Reversed alphabetical order: ", [...places].sort().reverse());
 console.log("Original list: ", places);
 //Reverses the places list
 console.log("Reversed order:", places.reverse());
-//Reversing the reversed order bring back the original list
+//Reversing the reversed order brings back the original list
 console.log("Original order:", places.reverse());
-//Sorts the list aphabetically
+//Sorts the list alphabetically
 console.log("Alphabetical order:", places.sort());
-//Reverses the alphabetically sorted list
+//Sorts the list in reverse alphabetical order
 console.log("Reverse alphabetical order:", places.reverse());

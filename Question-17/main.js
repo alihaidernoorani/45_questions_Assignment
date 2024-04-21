@@ -9,3 +9,7 @@ console.log("\n");
 guests.forEach(guest => {
     console.log(`Dear ${guest}, you're still invited to dinner.`);
 });
+while (guests.length > 0) {
+    guests.pop();
+}
+console.log(`Empty guest list: ${guests}`);
